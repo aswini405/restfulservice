@@ -1,5 +1,9 @@
 1.	myRetail RESTful service
 
+Build the application: mvn clean install
+Build the docker: sudo docker build -t restfulservice
+Run the docker: sudo docker run restfulservice
+
 Implemented REST Endpoints:
 
 Accepts an HTTP PUT request at the same path (/products/{id}), containing a JSON request body similar to the GET response, and updates the product’s price in the data store.
